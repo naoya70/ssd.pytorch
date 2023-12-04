@@ -1,7 +1,8 @@
+import sys
+sys.path.append('/content/ssd.pytorch/data')
 from .config import HOME
 import os
 import os.path as osp
-import sys
 import torch
 import torch.utils.data as data
 import torchvision.transforms as transforms
